@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ancaveman",
+  "description": "Предельное сжатие ответов для Claude Code. Жёстче, чем caveman: таблицы вместо прозы, предел десять слов в предложении. Код, пути, числа, ошибки и отрицания сохраняются дословно.",
+  "owner": {
+    "name": "zxraven",
+    "url": "https://github.com/zxraven"
+  },
+  "plugins": [
+    {
+      "name": "ancaveman",
+      "description": "Предельное сжатие ответов. Вся техническая суть цела, умирает только форма.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
